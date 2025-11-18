@@ -1,0 +1,24 @@
+{
+  "name": "gta-san-andreas-mini-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioStojcevski/gta-san-andreas-mini-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MarioStojcevski/gta-san-andreas-mini-game/issues"
+  },
+  "homepage": "https://github.com/MarioStojcevski/gta-san-andreas-mini-game#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
