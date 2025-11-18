@@ -87,9 +87,10 @@ class Game extends Group {
     const rotation = difference * 0.5;
     this.player.rotation.z = rotation;
 
-    if (playerPosition < -0.85 || playerPosition > 0.85) {
+    if (playerPosition < -0.9 || playerPosition > 0.9) {
       this.player.position.y -= 0.1;
       this.player.position.z -= 0.05;
+      this.isDown && this.onUp()
     }
   }
 
